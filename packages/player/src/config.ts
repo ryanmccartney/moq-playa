@@ -114,7 +114,7 @@ export interface ConnectionConfig {
    * The track name for requesting catalogs. This should be
    * 'catalog' in most cases.
    */
-  readonly catalogTrackName: string;
+  readonly catalogTrackName?: string;
 
   /**
    * MAX_REQUEST_ID for the MOQT session. Default: 100.
