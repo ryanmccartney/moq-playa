@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "pnpm -r build",
-    "prepare": "pnpm run build",
+    "prepare": "pnpm install --ignore-scripts && pnpm -r build",
     "debug:h264": "node scripts/h264-debug.mjs",
     "debug:h264-rebuild": "node scripts/h264-rebuild.mjs",
     "test": "vitest run",
