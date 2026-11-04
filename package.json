@@ -7,6 +7,7 @@
   },
   "scripts": {
     "build": "pnpm -r build",
+    "prepare": "pnpm run build",
     "debug:h264": "node scripts/h264-debug.mjs",
     "debug:h264-rebuild": "node scripts/h264-rebuild.mjs",
     "test": "vitest run",
